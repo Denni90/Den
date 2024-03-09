@@ -59,7 +59,6 @@ public class Telephone {
             System.out.println("Ошибка: неверный формат даты. Должен быть в формате dd.MM.yyyy.");
             return;
         }
-
         // Проверка формата телефона
         Pattern phonePattern = Pattern.compile("\\d{11}");
         Matcher phoneMatcher = phonePattern.matcher(phoneNumber);
