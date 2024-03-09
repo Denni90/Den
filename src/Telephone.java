@@ -50,7 +50,6 @@ public class Telephone {
             System.out.println("Ошибка: введены меньше или больше данных, чем требуется.");
             return;
         }
-
         // Проверка формата даты
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
         try {
